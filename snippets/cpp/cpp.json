@@ -1,0 +1,20 @@
+{
+    "fori": {
+        "prefix": "fori",
+        "body": [
+            "for (int ${2:i} = 0; $2 < ${1:count}; $2${3:++}) {",
+            "\t${4}",
+            "}"
+        ],
+        "description": "Code snippet for 'for int' loop"
+    },
+    "fore": {
+        "prefix": "fore",
+        "body": [
+            "for (const ${1:auto} ${2:i} : ${3:container}) {",
+            "\t$4",
+            "}"
+        ],
+        "description": "Code snippet for 'for' range"
+    }
+}
